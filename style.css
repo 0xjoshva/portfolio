@@ -1,0 +1,145 @@
+/* CSS Reset */
+
+/* HOME */
+#home {
+  margin-left: 181px;
+  margin-top: 294px;
+  height: 100vh;
+}
+
+#home h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #45505b;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#home p {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  /* color: #45505b; */
+}
+
+/* BACKGROUND */
+#bg-gif {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  object-fit: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(8px);
+}
+
+#im {
+  color: #45505b;
+  padding-right: 6px;
+}
+
+#profession {
+  color: #0563bb;
+}
+
+/* SOCIAL MEDIA ICONS */
+.socials {
+  letter-spacing: 15px;
+  font-size: 20px;
+  color: #45505b;
+}
+
+#twitter:hover {
+  color: #30669c;
+}
+
+#facebook:hover {
+  color: #30669c;
+}
+
+#instagram:hover {
+  color: #30669c;
+}
+
+#skype:hover {
+  color: #30669c;
+}
+
+#linkedin:hover {
+  color: #30669c;
+}
+
+/* ABOUT */
+#about {
+  background-color: white;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+  padding: 60px;
+}
+
+#about h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.heading {
+  color: #45505b;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 30px;
+  display: block;
+  width: 1230px;
+  text-align: center;
+}
+
+#about h3 {
+  margin-top: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #728394;
+}
+
+#descrip {
+  margin-top: 0;
+  font-style: italic;
+  color: #45505b;
+  font-family: "Open Sans", sans-serif;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bio {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.fa-chevron-right {
+  color: #0563bb;
+}
+
+#aboutfoot {
+  text-align: justify;
+}
+
+#portrait {
+  width: 415.99px;
+  height: 415.99px;
+  float: left;
+  margin: 0 40px 10px 38px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+}
