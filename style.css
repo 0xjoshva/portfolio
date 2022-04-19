@@ -81,6 +81,7 @@
   font-family: "Open Sans", sans-serif;
   color: #272829;
   padding: 60px;
+  margin-top: -279px;
 }
 
 #about h2 {
@@ -95,6 +96,8 @@
   display: block;
   width: 1230px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #about h3 {
@@ -128,8 +131,24 @@ ul {
   color: #0563bb;
 }
 
+/* ROWS AND COLUMNS */
+/* +add a row gap */
+.column {
+  float: left;
+  width: 428px;
+  padding: -10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 #aboutfoot {
   text-align: justify;
+  margin-top: -200px;
+  width: 1294px;
 }
 
 #portrait {
@@ -142,4 +161,71 @@ ul {
 li {
   list-style-type: none;
   display: flex;
+}
+
+/* FACTS */
+#facts {
+  margin-top: -300px;
+}
+
+#facts h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: #45505b;
+}
+
+#facts p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 1093px;
+  color: #272829;
+  font-family: "Open Sans", sans-serif;
+}
+
+.fa-face-smile {
+  color: white;
+  background: #0563bb;
+  background-size: 400px;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.fa-table-list {
+  color: white;
+  background: #0563bb;
+  background-size: 400px;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.fa-headset {
+  color: white;
+  background: #0563bb;
+  background-size: 400px;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.fa-award {
+  color: white;
+  background: #0563bb;
+  background-size: 400px;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.fact-ico {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  display: inline-block;
+  flex-direction: row;
 }
