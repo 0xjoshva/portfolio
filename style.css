@@ -532,7 +532,7 @@ progress[value] {
   background-color: green;
 }
 
-.fa-circle-half-stroke i:hover {
+.fa-circle-half-stroke:hover {
   color: white;
   padding: 10px;
   border-radius: 50%;
@@ -543,8 +543,9 @@ progress[value] {
   box-shadow: 10px 10px 50px grey;
 }
 
-.webd:hover {
+.webd:hover{
   box-shadow: 10px 10px 50px grey;
+  
 }
 
 .graphd:hover {
