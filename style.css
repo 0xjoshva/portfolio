@@ -1,4 +1,61 @@
 /* CSS Reset */
+/* {
+  margin:0;
+  box-sizing: border-box;
+  padding:0;
+} */
+
+/* row gap not working */
+/* no responsiveness */
+/* page too wide */
+/* progress bar colors wont change */
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  height: 50%;
+  width: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 13%;
+}
+
+/* NAVBAR ICON STYLING */
+#nav-ico {
+  margin-top: 5px;
+  color: #45505b;
+  font-size: medium;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: rgb(228 228 228);
+}
+
+#nav-ico:hover {
+  color: #ffffff;
+  font-size: medium;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #0563bb;
+}
+
+nav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+nav span {
+  display: none;
+}
+
+nav span:hover {
+  display: legacy;
+}
 
 /* HOME */
 #home {
@@ -129,6 +186,8 @@ ul {
 
 .fa-chevron-right {
   color: #0563bb;
+  background-color: white;
+  padding: 10px;
 }
 
 /* ROWS AND COLUMNS */
@@ -359,4 +418,135 @@ progress[value] {
   font-weight: 600;
   padding-bottom: 10px;
   font-size: small;
+}
+
+/* RESUME */
+#resume {
+  text-align: center;
+}
+
+#resume h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #45505b;
+  font-family: "Raleway", sans-serif;
+}
+
+#resume p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 1093px;
+  color: #272829;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* SERVICES */
+#services {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#services h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: #45505b;
+}
+
+#services p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  color: #272829;
+  font-family: "Open Sans", sans-serif;
+}
+
+.serv-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.serv-row > div {
+  max-width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 1rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  .serv-row {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: red;
+  }
+  .serv-row > div {
+    min-width: 100%;
+    gap: 1rem;
+    background-color: #0563bb;
+  }
+}
+
+#serv-ico {
+  font-size: x-large;
+}
+
+.fa-chart-pie {
+  color: purple;
+  padding: 10px;
+}
+
+.fa-globe {
+  color: green;
+  padding: 10px;
+}
+
+.fa-circle-half-stroke {
+  color: orange;
+  padding: 10px;
+}
+
+.fa-chart-pie:hover {
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: purple;
+}
+
+.fa-globe:hover {
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.fa-circle-half-stroke i:hover {
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.ecom:hover {
+  box-shadow: 10px 10px 50px grey;
+}
+
+.webd:hover {
+  box-shadow: 10px 10px 50px grey;
+}
+
+.graphd:hover {
+  box-shadow: 10px 10px 50px grey;
 }
