@@ -1,0 +1,94 @@
+/* CSS RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* SKILLS */ /* SKILLS */ /* SKILLS */
+#skills {
+  margin-top: 5%;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #45505b;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 1%;
+}
+
+#skills p {
+  margin-top: 0;
+  color: #272829;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1%;
+}
+
+/* PROGRESS BARS */
+
+/* .prog1 span {
+      margin-left: 1002px;
+}
+
+.prog2 span {
+  margin-left: 947px;
+} */
+
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50%;
+  height: 10px;
+  background: blue;
+}
+
+.row3 {
+  display: flex;
+}
+
+/*centering icons */
+.column3 {
+}
+
+.prog2 {
+  margin-top: 12px;
+}
+
+.prog1 {
+}
+
+.prog1 span {
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+  padding-bottom: 10px;
+  font-size: small;
+  margin-left: 493px;
+}
+
+.prog1 p {
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-size: small;
+}
+
+.prog2 span {
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-size: small;
+  margin-left: 450px;
+}
+
+.prog2 p {
+  font-family: "Poppins", sans-serif;
+  color: #45505b;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-size: small;
+}

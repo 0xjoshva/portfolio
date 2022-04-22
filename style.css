@@ -644,6 +644,12 @@ progress[value] {
   flex-direction: column;
 }
 
+.test-p {
+  font-style: italic;
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+
 /* CONTACT */ /* CONTACT */ /* CONTACT */
 #contact {
 }
@@ -717,11 +723,16 @@ progress[value] {
 }
 
 #contact-ico {
-  font-size: 150%;
+  font-size: 120%;
   color: #0563bb;
-  background-color: rgb(194, 194, 230);
+  background-color: rgb(222, 234, 239);
   padding: 20px;
   border-radius: 50%;
   border: 1px solid rgb(255, 255, 255);
   float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-contact span {
 }
