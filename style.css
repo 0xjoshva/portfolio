@@ -34,15 +34,6 @@ nav {
   background-color: #0563bb;
 }
 
-/* MAKE IT SELECTED WHEN ACTIVE */ /* MAKE IT SELECTED WHEN ACTIVE */ /* MAKE IT SELECTED WHEN ACTIVE */ /* MAKE IT SELECTED WHEN ACTIVE */ /* MAKE IT SELECTED WHEN ACTIVE */
-#home:active {
-  color: #ffffff;
-  font-size: medium;
-  padding: 15px;
-  border-radius: 50%;
-  background-color: #0563bb;
-}
-
 nav a {
   padding: 6px 6px 6px 32px;
   text-decoration: none;
@@ -732,9 +723,5 @@ progress[value] {
   padding: 20px;
   border-radius: 50%;
   border: 1px solid rgb(255, 255, 255);
-}
-
-.flex-contact span {
-  display: flex;
-  flex-direction: row;
+  float: left;
 }
