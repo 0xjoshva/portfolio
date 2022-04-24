@@ -23,7 +23,7 @@ nav {
   font-size: medium;
   padding: 15px;
   border-radius: 50%;
-  background-color: rgb(228 228 228);
+  background-color: rgb(253, 253, 253);
 }
 
 #nav-ico:hover {
@@ -32,6 +32,14 @@ nav {
   padding: 15px;
   border-radius: 50%;
   background-color: #0563bb;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 nav a {
@@ -482,7 +490,7 @@ progress[value] {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  flex-wrap: wrap;
+  flex-direction: row;
 }
 .serv-row > div {
   max-width: 30%;
@@ -596,6 +604,8 @@ progress[value] {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  gap: 5%;
+  margin: 0% 5%;
 }
 
 #bsnssmn {
