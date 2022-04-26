@@ -744,5 +744,44 @@ progress[value] {
   flex-direction: column;
 }
 
-.flex-contact span {
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  grid-template-areas:
+    "name" "email"
+    "subject " "subject"
+    "message" " message";
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  background: rgb(146, 24, 24);
+}
+
+.grid-item {
+  color: aqua;
+}
+
+#name1 {
+  grid-area: name;
+  grid-row-start: auto;
+  grid-row: 1;
+}
+
+#email1 {
+  grid-area: email;
+  grid-row-end: auto;
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+}
+
+#subject1 {
+  grid-area: subject;
+  grid-row: 2 / span 2;
+  grid-column: 3 / span 1;
+}
+
+#message1 {
+  grid-area: message;
+  grid-row: 3 / span 1;
+  grid-column: 3 / span 1;
 }
