@@ -7,17 +7,17 @@
 }
 
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
-nav {
+/* nav {
   height: 50%;
   width: 100px;
   position: fixed;
   top: 0;
   left: 0;
   padding-top: 13%;
-}
+} */
 
 /* NAVBAR ICON STYLING */
-#nav-ico {
+/* #nav-ico {
   margin-top: 5px;
   color: #45505b;
   font-size: medium;
@@ -56,7 +56,7 @@ nav span {
 
 nav span:hover {
   display: legacy;
-}
+} */
 
 /* HOME */ /* HOME */ /* HOME */
 #home {
@@ -115,6 +115,10 @@ nav span:hover {
   color: #30669c;
 }
 
+#instagram {
+  color: #45505b;
+}
+
 #instagram:hover {
   color: #30669c;
 }
@@ -127,10 +131,15 @@ nav span:hover {
   color: #30669c;
 }
 
+#linkedin {
+  color: #45505b;
+}
+
 /* ABOUT */ /* ABOUT */ /* ABOUT */
 
-about {
+#about {
   min-height: 100vh;
+  margin: -20%;
 }
 
 .heading h2 {
@@ -210,7 +219,7 @@ about {
 
 /* FACTS */ /* FACTS */ /* FACTS */
 #facts {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .facts_heading h2 {
@@ -330,7 +339,7 @@ about {
 
 /* SKILLS */ /* SKILLS */ /* SKILLS */
 #skills {
-  margin-top: 5%;
+  margin-top: 10%;
   text-align: center;
 }
 
@@ -425,7 +434,7 @@ progress[value] {
 
 /* RESUME */ /* RESUME */ /* RESUME */
 #resume {
-  margin-top: 5%;
+  margin-top: 10%;
   text-align: center;
 }
 
@@ -452,7 +461,7 @@ progress[value] {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 5% 0% 5% 0%;
+  margin: 10% 0% 5% 0%;
 }
 
 #services h2 {
@@ -590,6 +599,9 @@ progress[value] {
 }
 
 /* TESTIMONIALS */ /* TESTIMONIALS */ /* TESTIMONIALS */
+#testimonials{
+}
+
 #testimonials h2 {
   text-align: center;
   font-size: 32px;
@@ -744,44 +756,61 @@ progress[value] {
   flex-direction: column;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 33.33% 33.33% 33.33%;
-  grid-template-areas:
-    "name" "email"
-    "subject " "subject"
-    "message" " message";
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  background: rgb(146, 24, 24);
+.flex-input {
+  margin-left: 25%;
+  margin-top: -25%;
+  margin-right: 20%;
 }
 
-.grid-item {
-  color: aqua;
+.flex-item {
 }
 
-#name1 {
-  grid-area: name;
-  grid-row-start: auto;
-  grid-row: 1;
+#name1 input {
+  width: 180%;
+  height: 44px;
 }
 
-#email1 {
-  grid-area: email;
-  grid-row-end: auto;
-  grid-row: 1 / span 1;
-  grid-column: 1 / span 1;
+#email1 input {
+  width: 200%;
+  height: 44px;
+  margin-bottom: 7%;
+  margin-left: 167px;
 }
 
-#subject1 {
-  grid-area: subject;
-  grid-row: 2 / span 2;
-  grid-column: 3 / span 1;
+#subject1 input {
+  width: 125%;
+  height: initial;
+  margin-bottom: 3%;
+  height: 44px;
 }
 
-#message1 {
-  grid-area: message;
-  grid-row: 3 / span 1;
-  grid-column: 3 / span 1;
+#message1 input {
+  width: 125%;
+  height: initial;
+  margin-bottom: 3%;
+  padding-bottom: 20%;
+}
+
+.row-container {
+  display: inline-flex;
+}
+
+.submitbutton {
+  background-color: #0563bb;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 33px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-weight: bold;
+}
+
+.submitbutton:hover {
+  background-color: rgb(70, 122, 194);
+  /* color: #0563bb; */
+  border: 1px solid #0563bb;
 }

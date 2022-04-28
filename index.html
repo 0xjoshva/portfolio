@@ -10,10 +10,44 @@
       src="https://kit.fontawesome.com/effaa6b14d.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
   </head>
 
   <body>
-    <nav>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+      <a class="navbar-brand" href="#home"
+        ><i class="bi bi-globe2 fa-xl"></i
+      ></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#nav-links"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="nav-links">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#home">Home</a>
+          <a class="nav-item nav-link" href="#about">About</a>
+          <a class="nav-item nav-link" href="#resume">Resume</a>
+          <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-item nav-link" href="#services">Services</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <nav>
       <a href="#home"
         ><i id="nav-ico" class="fa-solid fa-house"></i><span>Home</span></a
       >
@@ -34,7 +68,7 @@
         ><i id="nav-ico" class="fa-solid fa-envelope"></i>
         <span>Contact</span></a
       >
-    </nav>
+    </nav> -->
 
     <section id="home">
       <img src="blob.gif" alt="background" id="bg-gif" />
@@ -354,24 +388,35 @@
           >
         </div>
       </div>
+      <form action="https://formspree.io/f/xbjwpked" method="post">
+        <!-- input boxes -->
+        <div class="flex-input">
+          <div class="row-container">
+            <!-- name & surname -->
+            <div id="name1" class="flex-item">
+              <input placeholder="Your Name" type="text" />
+            </div>
 
-      <!-- input boxes -->
-      <div class="grid">
-        <div id="name1" class="grid-item">
-          <input placeholder="Your Name" type="text" />
-        </div>
-        <div id="email1" class="grid-item">
-          <input placeholder="Your E-Mail" type="email" />
-        </div>
-        <div id="subject1" class="grid-item">
-          <input placeholder="Subject" type="text" />
-        </div>
-        <div id="message1" class="grid-item">
-          <input placeholder="Message" type="text" />
-        </div>
-      </div>
+            <!-- email -->
+            <div id="email1" class="flex-item">
+              <input placeholder="Your E-Mail" type="email" />
+            </div>
+          </div>
 
-      <button class="submitbtn"></button>
+          <!-- subject -->
+          <div id="subject1" class="flex-item">
+            <input placeholder="Subject" type="text" />
+          </div>
+
+          <!-- message -->
+          <div id="message1" class="flex-item">
+            <input placeholder="Message" type="text" />
+          </div>
+        </div>
+
+        <!-- submit button -->
+        <button type="submit" class="submitbutton" style>Submit</button>
+      </form>
     </section>
   </body>
 </html>
