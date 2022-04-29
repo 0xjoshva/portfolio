@@ -7,17 +7,17 @@
 }
 
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
-/* nav {
+nav {
   height: 50%;
   width: 100px;
   position: fixed;
   top: 0;
   left: 0;
   padding-top: 13%;
-} */
+}
 
 /* NAVBAR ICON STYLING */
-/* #nav-ico {
+#nav-ico {
   margin-top: 5px;
   color: #45505b;
   font-size: medium;
@@ -56,7 +56,7 @@ nav span {
 
 nav span:hover {
   display: legacy;
-} */
+}
 
 /* HOME */ /* HOME */ /* HOME */
 #home {
@@ -139,7 +139,7 @@ nav span:hover {
 
 #about {
   min-height: 100vh;
-  margin: -20%;
+  margin: -10%;
 }
 
 .heading h2 {
@@ -604,16 +604,29 @@ progress[value] {
 
 #testimonials h2 {
   text-align: center;
-  font-size: 32px;
-  font-weight: bold;
-  font-family: "Raleway", sans-serif;
-  color: #45505b;
-  margin-bottom: 3%;
+  font-size: 32px !important;
+  font-weight: bold !important;
+  font-family: "Raleway", sans-serif !important;
+  color: #45505b !important;
+  margin-bottom: 3% !important;
 }
 
-.flex-testimonial {
-  /* background-color: red; */
-  display: flex;
+#testimonial h6 {
+  font-family: "Raleway", sans-serif !important;
+  color: #999;
+  font-size: 14px !important;
+  margin: 0 0 15px 0;
+}
+
+#testimonial p {
+  font-style: italic !important;
+  font-family: "Open Sans", sans-serif !important;
+  color: #272829 !important;
+}
+
+/* .flex-testimonial { */
+/* background-color: red; */
+/* display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   gap: 5%;
@@ -644,33 +657,33 @@ progress[value] {
 
 .user1 {
   /* background-color: aqua; */
-  width: 30%;
+/* width: 30%;
   display: flex;
   align-items: center;
   flex-direction: column;
-}
+} */
 
-.user2 {
-  /* background-color: #ff00c8; */
-  width: 30%;
+/* .user2 { */
+/* background-color: #ff00c8; */
+/* width: 30%;
   display: flex;
   align-items: center;
   flex-direction: column;
-}
+} */
 
-.user3 {
-  /* background-color: #0ac803; */
-  width: 30%;
+/* .user3 { */
+/* background-color: #0ac803; */
+/* width: 30%;
   display: flex;
   align-items: center;
   flex-direction: column;
-}
+} */
 
-.test-p {
+/* .test-p {
   font-style: italic;
   font-family: "Open Sans", sans-serif;
   color: #272829;
-}
+} */
 
 /* CONTACT */ /* CONTACT */ /* CONTACT */
 #contact {
@@ -771,7 +784,7 @@ progress[value] {
 }
 
 #email1 input {
-  width: 200%;
+  width: 197%;
   height: 44px;
   margin-bottom: 7%;
   margin-left: 167px;
@@ -807,6 +820,7 @@ progress[value] {
   cursor: pointer;
   border-radius: 16px;
   font-weight: bold;
+  margin: 0% 43%;
 }
 
 .submitbutton:hover {

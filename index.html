@@ -23,7 +23,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+    <!-- <nav class="navbar navbar-expand-sm navbar-light sticky-top">
       <a class="navbar-brand" href="#home"
         ><i class="bi bi-globe2 fa-xl"></i
       ></a>
@@ -45,9 +45,9 @@
           <a class="nav-item nav-link" href="#contact">Contact</a>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
-    <!-- <nav>
+    <nav>
       <a href="#home"
         ><i id="nav-ico" class="fa-solid fa-house"></i><span>Home</span></a
       >
@@ -68,7 +68,7 @@
         ><i id="nav-ico" class="fa-solid fa-envelope"></i>
         <span>Contact</span></a
       >
-    </nav> -->
+    </nav>
 
     <section id="home">
       <img src="blob.gif" alt="background" id="bg-gif" />
@@ -320,9 +320,7 @@
       </div>
     </section>
 
-    <section id="testimonials">
-      <h2>TESTIMONIALS</h2>
-      <div class="flex-testimonial">
+    <!-- <div class="flex-testimonial">
         <div class="user1">
           <img id="bsnssmn" src="user1.jpg" alt="businessman" />
           <p class="nam-sur">Chikondi Nkosana</p>
@@ -357,6 +355,96 @@
             praesentium doloribus fugiat expedita, ducimus est commodi sequi
             ratione dolore laudantium eveniet similique voluptates neque."
           </p>
+        </div>
+      </div> -->
+
+    <section id="testimonials" class="py-5">
+      <h2 class="mb-5 text-center">TESTIMONIALS</h2>
+      <div class="container text-center text-white" style="margin-top: 20%;">
+        <div
+          id="testimonialSlider"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#testimonialcarousel"
+              data-bs-slide-to="0"
+              class="active rounded-circle"
+              style="width: 10px; height: 10px;"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#testimonialcarousel"
+              data-bs-slide-to="1"
+              class="rounded-circle"
+              style="width: 10px; height: 10px"
+              aria-current="true"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#testimonialcarousel"
+              data-bs-slide-to="2"
+              class="rounded-circle"
+              style="width: 10px; height: 10px"
+              aria-current="true"
+              aria-label="Slide 3"
+            ></button>
+
+            <div class="carousel-inner">
+              <div class="carousel-item pb-5 text-center active">
+                <img
+                  src="./user1.jpg"
+                  class="rounded-circle mb-5 "
+                  alt="person1"
+                  style="width: 120px; height: 120px"
+                />
+                <h5 class="text-dark" style="font-size: 20px;">Chikondi Nkosana</h5>
+                <h6 class="lead text-dark" style="font-size: 14px">Designer</h6>
+                <p class="text-dark" style="font-style:italic;">
+                  "Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti, nisi quaerat reiciendis, temporibus similique
+                  doloremque voluptatum suscipit saepe tenetur pariatur placeat
+                  ratione dolores eos iste?"
+                </p>
+              </div>
+              <div class="carousel-item pb-5 text-center">
+                <img
+                  src="./user2.jpg"
+                  class="rounded-circle mb-5"
+                  alt="person2"
+                  style="width: 120px; height: 120px"
+                />
+                <h5 class="text-dark">Dakarai Mamadu</h5>
+                <h6 class="lead">Engineer</h6>
+                <p class="text-dark" style="font-style:italic;">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ratione corrupti repellat, recusandae eos in sequi nobis
+                  minima iste, itaque, molestiae harum rerum quas similique
+                  reiciendis!"
+                </p>
+              </div>
+              <div class="carousel-item pb-5 text-center">
+                <img
+                  src="./user3.jpg"
+                  class="rounded-circle mb-5"
+                  alt="person3"
+                  style="width: 120px; height: 120px"
+                />
+                <h5 class="text-dark">Tambudzai Itai</h5>
+                <h6 class="lead text-dark">Accountant</h6>
+                <p class="text-dark" style="font-style:italic;">
+                  "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Expedita debitis molestiae, amet veritatis quod atque et
+                  similique sequi sed, alias ad! Minima fuga nihil enim!"
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
